@@ -14,7 +14,7 @@ namespace DemoAppDeployement.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Hello", "Kartikey" };
+            return new string[] { "Hello this is Kartikey from Ashoknagar..."};
         }
 
         // GET api/values/5
